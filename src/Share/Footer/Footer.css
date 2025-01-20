@@ -1,0 +1,14 @@
+.footer {
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    color: #f6f6f6;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-dark {
+    background: linear-gradient(145deg, #1e2024, #23272b);
+}
+
+.footer-light {
+    background: #ECF0F3;
+}

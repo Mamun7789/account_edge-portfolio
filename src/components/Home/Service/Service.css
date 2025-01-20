@@ -1,0 +1,131 @@
+/* General Service Container Styles */
+.service-container {
+  padding: 50px 0;
+}
+
+.service-container-light {
+  background: #ecf0f3;
+  color: #333;
+}
+
+.service-container-light h4{
+  color: gray;
+}
+
+.service-container-dark {
+  background-color: #333;
+  color: #fff;
+}
+.txt .light{
+  color: black;
+}
+/* Styling for individual cards */
+.custom-card {
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1), 
+              box-shadow 0.5s ease-in-out;
+  background: #f9f9f9;
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+  cursor: pointer;
+}
+
+/* Light and Dark Mode Specific Card Styles */
+.service-container-light .custom-card {
+  background-color: #fff;
+}
+
+.service-container-dark .custom-card {
+  background-color: #1e2024;
+}
+
+/* Hover Effects: Add 3D Rotation and Depth */
+.custom-card:hover {
+  transform: translateY(-20px) rotateX(8deg) rotateY(-4deg);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Add a subtle gradient glow on hover */
+.custom-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent);
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.custom-card:hover::before {
+  opacity: 1;
+}
+
+/* Text and Content Positioning */
+.custom-card h4 {
+  margin-top: 20px;
+  font-weight: bold;
+  z-index: 1;
+  position: relative;
+}
+
+.custom-card p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 15px;
+  color: #666;
+  z-index: 1;
+  position: relative;
+}
+
+.service-container-dark .custom-card p {
+  color: #dcdcdc;
+}
+
+/* Icon animations */
+.custom-card img {
+  max-width: 70px;
+  height: auto;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+  z-index: 1;
+  position: relative;
+}
+
+.custom-card:hover img {
+  transform: rotate(-15deg) scale(1.2);
+}
+
+/* Unique Hover Background for Each Card */
+.card-1:hover {
+  background: linear-gradient(135deg, #28a745, #a5d6a7);
+}
+
+.card-2:hover {
+  background: linear-gradient(135deg, #007bff, #90caf9);
+}
+
+.card-3:hover {
+  background: linear-gradient(135deg, #fbc02d, #ffeb3b);
+}
+
+/* Hover Text Effects */
+.custom-card:hover h4,
+.custom-card:hover p {
+  color: #fff;
+  transition: color 0.5s ease;
+}
+
+/* Mobile Responsiveness */
+@media only screen and (max-width: 688px) {
+  .service-container {
+    padding: 40px 0;
+  }
+  .custom-card {
+    height: auto;
+  }
+}

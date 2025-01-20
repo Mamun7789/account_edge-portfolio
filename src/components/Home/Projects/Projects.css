@@ -1,0 +1,113 @@
+.slider-container {
+  width: 100%;
+  padding: 40px 0;
+  position: relative;
+}
+
+.slider-container-dark {
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  color: #f6f6f6;
+}
+
+.slider-container-light {
+  background: #ecf0f3;
+  color: #23272b !important;
+}
+
+.project-card {
+  width: 100% !important;
+  height: 500px;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  word-wrap: break-word;
+  z-index: 99999;
+}
+
+.project-card-dark {
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 0 0 10px 10px rgb(55 84 170 / 10%);
+  color: #ffff;
+}
+
+.project-card-light {
+  background: #ecf0f3;
+  box-shadow: 5px 5px 15px #d1d9e6, -5px -5px 15px #ffffff;
+  color: #434649;
+}
+
+.view-btn {
+  text-decoration: none;
+  padding: 5px 7px;
+  display: inline-block;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+.view-btn:hover {
+  background-color: rgba(224, 219, 210, 0.267);
+  color: #fff;
+}
+
+.project-card img {
+  width: 100%;
+  height: 246px;
+  border-radius: 8px;
+  background-position: center;
+  transition: 0.4s;
+}
+
+.card-btn {
+  border: none;
+  background: transparent;
+}
+
+.title-card {
+  background-color: #f6f6f6;
+  margin-right: 7px;
+  margin-top: 5px;
+  display: inline-block;
+  padding: 2px 13px;
+  border-radius: 15px;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+  transition: 0.3s linear;
+}
+
+.title-card:hover {
+  color: rgb(0, 0, 0, 0.7) !important;
+}
+
+/*
+    swiper customize
+*/
+.swiper {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 10px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #f9004d !important;
+}
+
+/* mobile responsive */
+@media only screen and (max-width: 688px) {
+  .slider-container {
+    padding: 40px 10px;
+  }
+
+  .model-responsive {
+    width: 100% !important;
+  }
+}
