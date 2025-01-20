@@ -10,6 +10,17 @@
   color: #f9004d;
   font-size: 14px;
 }
+.logo img {
+  width: 70px;
+ 
+  
+}
+.logo{
+  margin-top: 10px;
+
+}
+
+
 
 .navbar-container {
   position: fixed;
@@ -29,7 +40,7 @@
 }
 
 .navbar-container-dark {
-  background: linear-gradient(145deg, #1e2024, #23272b);
+  background:  #58616a;
 }
 
 .navbar-container-light {

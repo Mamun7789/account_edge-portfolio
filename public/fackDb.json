@@ -1,8 +1,8 @@
 [
   {
     "id": 0,
-    "name": "MetaCGI",
-    "intention": "This site make for travel easyer",
+    "name": "Patient Care Summary",
+ 
     "img": "https://i.ibb.co.com/bgMZFgw/patient-care-dashboard.png",
     "live": "https://drive.google.com/drive/folders/1hl97NSjHcUeyyZwqQzgMReqccNeBNcMK?usp=drive_link",
     "react": false,
@@ -17,14 +17,15 @@
     "reactboots": false,
     "bootstrap": false,
     "sass": false,
-    "desyui": false
+    "desyui": false,
+    "description": "Integrate SQL database data to develop an interactive Power BI dashboard that tracks admission rates, treatment efficiency, and patient satisfaction. The dashboard will feature web embedding, seamless integration, and visually appealing insights for informed decision-making.",
+    "tools": "Tableau"
   },
   {
     "id": 1,
-    "name": "Travel Tourism",
-    "img": "https://i.ibb.co.com/7vPZt6Q/powerbi2.png",
-    "intention": "This site make for travel easyer",
-    "live": "https://tourism-75e22.web.app/",
+    "name": "Team Productivity & Performance Tracker",
+    "img": "https://i.ibb.co.com/hCzCSyK/Screenshot-1.png",
+    "live": "https://drive.google.com/file/d/17MsQSGBF28LTOS1YeecQXFYbLvGCTIwb/view?usp=drive_link",
     "html": false,
     "css": false,
     "react": false,
@@ -40,7 +41,57 @@
     "reactboots": false,
     "bootstrap": false,
     "sass": false,
-    "desyui": false
+    "desyui": false,
+    "description":  "Simplify team performance tracking with clear visuals and an easy-to-update structure. Gain insights into individual tasks, team goals, and overall progress with intuitive charts and metrics.",
+    "tools" :"Power BI"
+  },
+  {
+    "id": 2,
+    "name": "Social Media Engagement Dashboard",
+    "img": "https://i.ibb.co.com/0K414ts/Screenshot-2.png",
+    "live": "https://drive.google.com/file/d/1iNvL2jdO5gEniPppMIll4fhZZIOEE9ln/view?usp=drive_link",
+    "html": false,
+    "css": false,
+    "react": false,
+    "reactrouter": false,
+    "nextjs": false,
+    "typescript": false,
+    "node": false,
+    "express": false,
+    "mongodb": false,
+    "firebase": false,
+    "materialui": false,
+    "tailwind": false,
+    "reactboots": false,
+    "bootstrap": false,
+    "sass": false,
+    "desyui": false,
+    "description":  "I create custom Power BI dashboards to track and analyze social media performance across Facebook, Instagram, and Twitter. My dashboards help you monitor engagement metrics, follower growth, and post performance. With interactive filters and post-level insights, you can make data-driven decisions to optimize your social media strategy.",
+    "tools" :"Power BI"
+  },
+  {
+    "id": 3,
+    "name": "Business Performance Dashboard",
+    "img": "https://i.ibb.co.com/RN5zrdQ/Screenshot-3.png",
+    "live": "https://drive.google.com/drive/folders/1WTz58vML7Wx3RsAFFnm1n0Tzm6X0C6E5",
+    "html": false,
+    "css": false,
+    "react": false,
+    "reactrouter": false,
+    "nextjs": false,
+    "typescript": false,
+    "node": false,
+    "express": false,
+    "mongodb": false,
+    "firebase": false,
+    "materialui": false,
+    "tailwind": false,
+    "reactboots": false,
+    "bootstrap": false,
+    "sass": false,
+    "desyui": false,
+    "description":  "I specialize in creating custom Power BI solutions that help businesses track performance and make data-driven decisions. My services include data setup and integration from multiple sources, data modeling for efficient reporting, and the development of custom dashboards that focus on key business and sales performance metrics. I also add interactive features like filters and drill-throughs for deeper analysis, allowing you to monitor overall business performance and identify areas for improvement. Let me help you turn your data into actionable insights with tailored Power BI dashboards",
+    "tools" :"Power BI"
   }
 
 ]

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import useMode from "../../Hooks/useMode";
-import logo from "../../images/logo.svg";
+import logo from "../../images/Black & Blue Minimalist Modern Initial Font Logo.png";
 import { Moon, Sun } from "../../svg/svg";
 import "./Navigation.css";
 import { Link as ScrollLink, } from 'react-scroll';
@@ -53,7 +53,7 @@ const Navigation = () => {
         } navbar-container`}
       >
         <Link className="logo" to="/">
-          <img src="" alt="logo" />
+          <img src={logo} alt="logo" />
         </Link>
 
         <nav

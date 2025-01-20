@@ -3,7 +3,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import { Typewriter } from "react-simple-typewriter";
 import useMode from "../../../Hooks/useMode";
 // import profile from "../../../images/f2 png.png";
-
 import israfil from "../../../images/pritam (1).png";
 import "./Banner.css";
 
