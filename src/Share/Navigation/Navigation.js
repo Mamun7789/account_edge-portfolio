@@ -104,14 +104,7 @@ const Navigation = () => {
         >
       Contact Me
      </ScrollLink>
-            <Link
-              to="/blog"
-              className={`${
-                theme === "light" ? "text-dark" : "text-light"
-              } navbar-link px-4`}
-            >
-              Blogs
-            </Link>
+       
 
             {theme === "light" ? (
               <button
